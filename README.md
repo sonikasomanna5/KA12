@@ -1,8 +1,6 @@
----
+KA12 SnapStudio
 
- KA12 SnapStudio
-
-**KA12 SnapStudio** is a professional photography and videography studio dedicated to capturing your most important moments with creativity, style, and precision.
+KA12 SnapStudio is a professional photography and videography studio dedicated to capturing your most important moments with creativity, style, and precision.
 
  📷 About Us
 
@@ -24,10 +22,10 @@ We are based in \[Madikeri,Kodagu]. Studio sessions and on-location shoots are a
 
  📞 Contact Us
 
-* **Phone:** +\[DARSHAN : 9482472325]
-* **Email:** \[[ka12snapstudio@gmail.com](mailto:ka12snapstudio@gmail.com)]
-* **Instagram:** [@ka12snapstudio](#)
-* **Website:** [www.ka12snapstudio.com](#)
+* Phone: DARSHAN : 9482472325
+* Email: ka12snapstudio@gmail.com
+* Instagram: ka12snapstudio
+
 
  📅 Book a Session
 
