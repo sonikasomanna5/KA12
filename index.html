@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="KA12 SnapStudio - Professional photography and videography services for weddings, events, and more." />
+  <meta name="keywords" content="photography, videography, wedding, event, portrait, commercial, studio" />
+  <title>KA12  SnapStudio | Professional Photography & Videography</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header role="banner">
+    <img src="ka1.jpg" alt="KA12 SnapStudio Logo" class="logo" />
+    <h1>KA12  SnapStudio</h1>
+    <p class="tagline">"Your vision , our expertise"</p>
+    <nav aria-label="Main navigation">
+      <button class="nav-toggle" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul id="main-menu" class="nav-menu">
+        <li><a href="#about" tabindex="0">About Us</a></li>
+        <li><a href="#services" tabindex="0">Services</a></li>
+        <li><a href="#portfolio" tabindex="0">Portfolio</a></li>
+        <li><a href="#booking" tabindex="0">Book Now</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero fade-in" aria-label="Hero">
+      <h2>We capture timeless moments with a creative lens.</h2>
+    </section>
+
+    
+
+   
+    
+
+    <section id="about" class="fade-in" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <div class="about-content">
+        <p>
+          At <strong>KA12 SnapStudio</strong>, we blend artistry with technology to turn your most
+          cherished moments into lasting visuals. With a passionate team of photographers and videographers,
+          we specialize in capturing weddings, events, corporate shoots, and more with precision and creativity.
+        </p>
+        <p>
+          Our goal is simple — to bring your vision to life through our lens, with unmatched quality and heart.
+        </p>
+      </div>
+    </section>
+    <!-- Why Black and White Section -->
+    <section id="why-black-white" class="fade-in" aria-labelledby="why-black-white-heading">
+      <h2 id="why-black-white-heading">Why Black &amp; White?</h2>
+      <div class="about-content">
+        <p>
+          At <strong>KA12 SnapStudio</strong>, we believe that black and white is more than just a color scheme—it's a statement. Our studio and website embrace this timeless palette to reflect the elegance, clarity, and artistry that define our work. Black and white photography strips away distractions, allowing emotions, stories, and moments to shine through with pure authenticity.
+        </p>
+        <p>
+          This theme symbolizes our commitment to classic style and creative vision. By focusing on contrast and simplicity, we ensure that every detail stands out, just as we do in every project we undertake. Welcome to a space where your memories are captured with sophistication and heart.
+        </p>
+      </div>
+    </section>
+     <section id="services" class="fade-in" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <div class="service-list">
+        <div class="service" tabindex="0">Wedding Photography</div>
+        <div class="service" tabindex="0">Event Videography</div>
+        <div class="service" tabindex="0">Commercial Shoots</div>
+        <div class="service" tabindex="0">Video editing</div>
+        <div class="service" tabindex="0">Portrait Sessions</div>
+        <div class="service" tabindex="0">Coporate media</div>
+      </div>
+    </section>
+
+    
+
+    <section id="portfolio" class="fade-in" aria-labelledby="portfolio-heading">
+      <h2 id="portfolio-heading">Portfolio</h2>
+      <div class="gallery">
+        <img src="images/portfolio1.jpg" alt="Bride and groom wedding portrait" />
+        <img src="images/portfolio2.jpg" alt="Corporate event photography" />
+        <img src="images/portfolio3.jpg" alt="Outdoor family portrait session" />
+      </div>
+    </section>
+
+    <section id="booking" class="fade-in" aria-labelledby="booking-heading">
+      <h2 id="booking-heading">Book a Session</h2>
+      <button onclick="openModal()" aria-haspopup="dialog" aria-controls="modal">Open Booking Form</button>
+    </section>
+
+    <!-- Booking Modal -->
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1" hidden>
+      <div class="modal-content">
+        <span onclick="closeModal()" class="close" role="button" aria-label="Close booking form" tabindex="0">&times;</span>
+        <h3 id="modal-title">Book Your Session</h3>
+        <form autocomplete="on">
+          <label for="booking-name">Name</label>
+          <input id="booking-name" type="text" placeholder="Name" required autocomplete="name" />
+          <label for="booking-email">Email</label>
+          <input id="booking-email" type="email" placeholder="Email" required autocomplete="email" />
+          <label for="booking-message">What session are you looking for?</label>
+          <textarea id="booking-message" placeholder="What session are you looking for?" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <section id="contact" class="fade-in" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <div class="contact-info" style="text-align:center; margin-bottom:2em;">
+        <p><strong>Email :</strong> <a href="mailto:ka12snapstudio@gmail.com">ka12snapstudio@gmail.com</a></p>
+        <p><strong>Phone :</strong> <a href="tel:9482472325,9632379931"> Darshan : 9482472325 <br>  Adesh : 9632379931</a></p>
+        <p>
+          <a href="https://instagram.com/ka12snapstudio" target="_blank" rel="noopener">Instagram</a>
+         
+        </p>
+      </div>
+      <form autocomplete="on">
+        <label for="contact-name">Your Name</label>
+        <input id="contact-name" type="text" placeholder="Your Name" required autocomplete="name" />
+        <label for="contact-email">Your Email</label>
+        <input id="contact-email" type="email" placeholder="Your Email" required autocomplete="email" />
+        <label for="contact-message">Your Message</label>
+        <textarea id="contact-message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 KA12 SnapStudio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
